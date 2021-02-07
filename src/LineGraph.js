@@ -55,11 +55,13 @@ const options = {
           x: date,
           y: data[casesType][date] - lastDataPoint,
         };
+        console.log(newDataPoint);
         chartData.push(newDataPoint);
       }
       lastDataPoint = data[casesType][date];
       console.log(lastDataPoint);
     }
+    console.log(chartData);
     return chartData;
   };
 

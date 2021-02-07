@@ -21,6 +21,10 @@ body {
   flex: 0.9;
 }
 
+.app___right {
+flex: 0.1;
+}
+
 .app__stats {
   display: flex;
   justify-content: space-between;
